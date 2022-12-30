@@ -45,7 +45,7 @@ body {
   margin: 8rem auto;
   background-color: var(--color-grey-light-1);
   box-shadow: var(--shadow-dark);
-  min-height: 41rem; }
+  min-height: 50rem; }
   @media only screen and (max-width: 75em) {
     .container {
       margin: 0;
@@ -217,7 +217,7 @@ body {
           margin: 0; } }
     @media only screen and (max-width: 56.75em) {
       .side-nav__item {
-        flex: 1 0 0; } }
+        flex: 1; } }
   .side-nav__item::before {
     content: "";
     position: absolute;
